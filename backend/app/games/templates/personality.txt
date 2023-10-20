@@ -1,0 +1,1 @@
+Create a personality for an autonomous NPC agent that exists on a grid. Use D&D as inspiration.

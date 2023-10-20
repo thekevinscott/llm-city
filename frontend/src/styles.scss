@@ -1,0 +1,46 @@
+// @import "../node_modules/pixel-borders/src/styles/pixel-borders.scss";
+
+
+body, html {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  // font-family: 'VT323', monospace;
+  font-size: 140%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+  width: 100%;
+}
+
+// button {
+//   font-family: 'VT323', monospace;
+//   border: 8px solid black;
+//   font-size: 200%;
+//   border-radius: 8px;
+//   padding: 20px;
+
+//   @include pixel-borders(
+//     $corner-size: 1,                 
+//     $border-size: 8px,              
+//     $border-color: #000,            
+//     $border-inset-color: false
+//   );
+// // @include pixel-box(
+// //   $corner-size,
+// //   $border-size, 
+// //   $background-color,              
+// //   $border-color: false,           
+// //   $border-inset: true,            
+// //   $border-inset-size: false,      
+// //   $border-inset-color: false,     
+// //   $border-inset-sides: false,
+// //   $border-inset-color-br: false,
+// //   $border-inset-color-tl: false
+// // );
+// }
