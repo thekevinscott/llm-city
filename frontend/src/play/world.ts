@@ -60,6 +60,17 @@ export class LCWorld extends LitElement {
   @property({ type: Array })
   players!
 
+  renderCell(col: number, row: number) {
+    for (const { position } of this.players) {
+      if (position[0] === col && position[1] === row) {
+        return html`
+        <i class="nes-icon user"></i>
+        `;
+      }
+    }
+    return null;
+  }
+
   render() {
     const pos = this.players[0].position;
     return html`
@@ -72,9 +83,7 @@ export class LCWorld extends LitElement {
       <tr>
       ${Array(this.width).fill('').map((_, col) => html`
         <td><div>
-        ${pos[0] === col && pos[1] === row ? html`
-        <i class="nes-icon user"></i>
-        ` : ''}
+        ${this.renderCell(col, row)}
 
         </div></td>
       `)}

@@ -1,4 +1,4 @@
-# LLMTopia
+# llmtopia
 
 This is an experiment in autonomous LLM agents.
 
