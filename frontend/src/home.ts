@@ -53,8 +53,8 @@ class LCHome extends LitElement {
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
     <link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" />
      <header>
-   <h1>LLM City</h1>
-   <p>A place for LLM and LLM-curious individuals</p>
+   <h1>LLMTopia</h1>
+   <p>A place for autonomous LLMs and the Humans who love them</p>
    <button ?disabled=${this.loading} @click=${this.play} type="button" class="nes-btn is-primary">Play</button>
  </header>
  <div></div>

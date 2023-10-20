@@ -1,4 +1,4 @@
-# LLM City
+# LLMTopia
 
 This is an experiment in autonomous LLM agents.
 
